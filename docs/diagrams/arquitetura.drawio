@@ -1,0 +1,644 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Página-1" id="AZIfWdwexSj2No7dtCM3">
+    <mxGraphModel dx="1995" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-232" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="110" width="1290" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-1" target="Kq5USN2y0SBJinWFVpKI-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-1" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;1. Deteccao de Sessao&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="310" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-4" target="Kq5USN2y0SBJinWFVpKI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-4" value="Entrada:&lt;div&gt;Sinal PIR&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-5" target="Kq5USN2y0SBJinWFVpKI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-5" value="Cria session_id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-7" value="Grava no Redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-9" value="Saida:&lt;div&gt;sessao iniciada&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-12" value="Sistemas: ESP32 → Compute Unit → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="-41.25" y="380" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-13" target="Kq5USN2y0SBJinWFVpKI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-13" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;2. Captura de Comando do Usuário&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-15" target="Kq5USN2y0SBJinWFVpKI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-15" value="Entrada: voz ou toque" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-17" target="Kq5USN2y0SBJinWFVpKI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-17" value="Recebe áudio ou toque" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-19" target="Kq5USN2y0SBJinWFVpKI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-19" value="Normaliza entrada" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-20" value="Saída: áudio bruto ou texto" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-21" value="Sistemas: WebApp (HTML/JS) → Front-End" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="278.75" y="380" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-23" target="Kq5USN2y0SBJinWFVpKI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-23" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;3. Reconhecimento de Fala (ASR)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="310" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-25" target="Kq5USN2y0SBJinWFVpKI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-25" value="Entrada: áudio capturado" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-27" target="Kq5USN2y0SBJinWFVpKI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-27" value="Trata áudio localmente" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-29" target="Kq5USN2y0SBJinWFVpKI-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-29" value="Aplica Whisper.cpp para transcrição" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-30" value="Saída: texto reconhecido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-31" value="Sistemas: WebRTC → Compute Unit (Whisper)" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="588.75" y="380" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-41" target="Kq5USN2y0SBJinWFVpKI-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-33" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;4. Interpretação de Intenção (NLU + LLM)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-35" target="Kq5USN2y0SBJinWFVpKI-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-35" value="Entrada: texto do comando" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="870" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-37" target="Kq5USN2y0SBJinWFVpKI-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-37" value="Aplica regras de NLU e regex" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-39" target="Kq5USN2y0SBJinWFVpKI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-39" value="Chama LLM se confiança baixa" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-40" value="Saída: intenção e slots extraídos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="340" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-41" value="Sistemas: Intent Service → LLM Orchestrator" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="888.75" y="380" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-43" target="Kq5USN2y0SBJinWFVpKI-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-43" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;5. Consulta de Catálogo (POIs / Lojas)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="440" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-45" target="Kq5USN2y0SBJinWFVpKI-47" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-45" value="Entrada: intenção e categoria" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-47" target="Kq5USN2y0SBJinWFVpKI-49" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-47" value="Busca loja/POI por nome ou categoria" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-49" target="Kq5USN2y0SBJinWFVpKI-50" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-49" value="Retorna dados do destino e node_id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-50" value="Saída: destino encontrado com metadados" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-51" value="Sistemas: Catalog Service → PostgreSQL" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="-41.25" y="510" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-54" target="Kq5USN2y0SBJinWFVpKI-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-54" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;6. Resolução de Origem&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-56" target="Kq5USN2y0SBJinWFVpKI-58" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-56" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-58" target="Kq5USN2y0SBJinWFVpKI-60" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-58" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-60" target="Kq5USN2y0SBJinWFVpKI-61" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-60" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="350" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-61" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-62" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="248.75" y="510" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-240" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-64" target="Kq5USN2y0SBJinWFVpKI-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-64" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;7. Cálculo de Rota&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-66" target="Kq5USN2y0SBJinWFVpKI-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-66" value="Entrada: origem, destino, acessibilidade" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-68" target="Kq5USN2y0SBJinWFVpKI-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-68" value="Carrega grafo indoor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="630" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-70" target="Kq5USN2y0SBJinWFVpKI-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-70" value="Aplica algoritmo A* ou Dijkstra" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-71" target="Kq5USN2y0SBJinWFVpKI-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-71" value="Calcula rota, distância e ETA" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-72" value="Sistemas: Routing Service → NetworkX/Neo4j" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="618.75" y="510" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-74" value="Saída: rota calculada (steps e polyline)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="810" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-77" target="Kq5USN2y0SBJinWFVpKI-79" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-77" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-79" target="Kq5USN2y0SBJinWFVpKI-81" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-79" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-81" target="Kq5USN2y0SBJinWFVpKI-82" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-81" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-82" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-83" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="510" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-93" target="Kq5USN2y0SBJinWFVpKI-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1045" y="550" />
+              <mxPoint x="55" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-84" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;8. Cache de Resposta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="920" y="440" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-87" target="Kq5USN2y0SBJinWFVpKI-89" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-87" value="Entrada: rota e sessão" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-89" target="Kq5USN2y0SBJinWFVpKI-91" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-89" value="Serializa rota em JSON" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-91" target="Kq5USN2y0SBJinWFVpKI-92" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-91" value="Grava no Redis com TTL 15min" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-92" value="Saída: chave route:{session} pronta" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="470" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-93" value="Sistemas: Cache Layer → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="510" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-95" target="Kq5USN2y0SBJinWFVpKI-97" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-95" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-97" target="Kq5USN2y0SBJinWFVpKI-99" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-97" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-99" target="Kq5USN2y0SBJinWFVpKI-100" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-99" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-100" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-101" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="-41.25" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-102" target="Kq5USN2y0SBJinWFVpKI-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-102" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;9. Conteúdo Contextual (Promoções/Eventos)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="570" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-104" target="Kq5USN2y0SBJinWFVpKI-106" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-104" value="Entrada: destino, horário, consentimento" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-106" target="Kq5USN2y0SBJinWFVpKI-108" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-106" value="Consulta promoções ativas" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-108" target="Kq5USN2y0SBJinWFVpKI-109" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-108" value="Filtra por horário e categoria" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-109" value="Saída: lista de promoções aplicáveis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-110" value="Sistemas: Promo Service → PostgreSQL/API" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="-41.25" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-115" target="Kq5USN2y0SBJinWFVpKI-117" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-115" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-117" target="Kq5USN2y0SBJinWFVpKI-119" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-117" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-119" target="Kq5USN2y0SBJinWFVpKI-120" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-119" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-120" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-121" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="308.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-122" target="Kq5USN2y0SBJinWFVpKI-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-122" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;10. Entrega ao Front-End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-124" target="Kq5USN2y0SBJinWFVpKI-126" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-124" value="Entrada: rota e promoções" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-126" target="Kq5USN2y0SBJinWFVpKI-128" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-126" value="Monta payload JSON de resposta" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-128" target="Kq5USN2y0SBJinWFVpKI-129" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-128" value="Renderiza mapa 2D e CTAs na tela" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-129" value="Saída: interface atualizada no totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-130" value="Sistemas: API Gateway → WebApp" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="308.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-132" target="Kq5USN2y0SBJinWFVpKI-134" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-132" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-134" target="Kq5USN2y0SBJinWFVpKI-136" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-134" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="630" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-136" target="Kq5USN2y0SBJinWFVpKI-137" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-136" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-137" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-138" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="588.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-139" target="Kq5USN2y0SBJinWFVpKI-159">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="871.25" y="615.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-139" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;11. Continuidade no Celular (QR / Link)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-141" target="Kq5USN2y0SBJinWFVpKI-143" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-141" value="Entrada: rota e promoções" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-143" target="Kq5USN2y0SBJinWFVpKI-145" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-143" value="Cria shortlink temporário" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="630" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-145" target="Kq5USN2y0SBJinWFVpKI-146" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-145" value="Gera QR code com o link curto" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-146" value="Saída: QR code exibido no totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-147" value="Sistemas: Share Service → YOURLS → WebApp" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="588.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-152" target="Kq5USN2y0SBJinWFVpKI-154" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-152" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-154" target="Kq5USN2y0SBJinWFVpKI-156" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-154" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-156" target="Kq5USN2y0SBJinWFVpKI-157" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-156" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-157" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-158" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-159" target="Kq5USN2y0SBJinWFVpKI-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-159" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;12. Telemetria e Eventos&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="920" y="570" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-161" target="Kq5USN2y0SBJinWFVpKI-163" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-161" value="Entrada: session id e tipo de evento" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-163" target="Kq5USN2y0SBJinWFVpKI-165" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-163" value="Envia evento ao backend" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-165" target="Kq5USN2y0SBJinWFVpKI-166" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-165" value="Grava log estruturado no banco" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-166" value="Saída: eventos registrados para análise" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="600" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-167" value="Sistemas: WebApp → Event Service → DB/BI" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="640" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-187" target="Kq5USN2y0SBJinWFVpKI-189" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-187" value="Entrada: session id" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-189" target="Kq5USN2y0SBJinWFVpKI-191" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-189" value="Define node de origem do totem" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-191" target="Kq5USN2y0SBJinWFVpKI-192" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-191" value="Recupera último node válido, se houver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-192" value="Saída: node de origem resolvido" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-193" value="Sistemas: WebApp → Redis" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="760" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-194" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;13. Encerramento de Sessão&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="920" y="690" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-195" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-196" target="Kq5USN2y0SBJinWFVpKI-198" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-196" value="Entrada: inatividade ou rota concluída" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="930" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-198" target="Kq5USN2y0SBJinWFVpKI-200" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-198" value="Atualiza campo ended_at" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="990" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" source="Kq5USN2y0SBJinWFVpKI-200" target="Kq5USN2y0SBJinWFVpKI-201" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-200" value="Remove chaves temporárias do Redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="720" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-201" value="Saída: sessão encerrada e dados prontos" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="720" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-202" value="Sistemas: Session Manager → Redis → DB" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="760" width="192.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-204" target="Kq5USN2y0SBJinWFVpKI-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-204" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;1. Deteccao de Sessao&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-205" target="Kq5USN2y0SBJinWFVpKI-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-205" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;2. Captura de Comando do Usuário&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="30" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-206" target="Kq5USN2y0SBJinWFVpKI-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-206" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;3. Reconhecimento de Fala (ASR)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-207" target="Kq5USN2y0SBJinWFVpKI-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-207" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;4. Interpretação de Intenção (NLU + LLM)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-208" target="Kq5USN2y0SBJinWFVpKI-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-208" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;5. Consulta de Catálogo (POIs / Lojas)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-209" target="Kq5USN2y0SBJinWFVpKI-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-209" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;6. Resolução de Origem&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="431.25" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-210" target="Kq5USN2y0SBJinWFVpKI-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-210" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;7. Cálculo de Rota&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="530" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-211" target="Kq5USN2y0SBJinWFVpKI-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-211" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;8. Cache de Resposta&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="630" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-212" target="Kq5USN2y0SBJinWFVpKI-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-212" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;9. Conteúdo Contextual (Promoções/Eventos)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="730" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-213" target="Kq5USN2y0SBJinWFVpKI-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-213" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;10. Entrega ao Front-End&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="840" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-214" target="Kq5USN2y0SBJinWFVpKI-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-214" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;11. Continuidade no Celular (QR / Link)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="930" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kq5USN2y0SBJinWFVpKI-215" target="Kq5USN2y0SBJinWFVpKI-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-215" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;12. Telemetria e Eventos&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-216" value="&lt;span style=&quot;color: rgb(18, 18, 18);&quot;&gt;13. Encerramento de Sessão&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;verticalAlign=top;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-233" value="1) PROCESSO RESUMIDO" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="130" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-234" value="2) PROCESSO DETALHADO" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="260" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-236" value="LLM Orchestrator faz o enrichment sem armazenar PII" style="text;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="335" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-238" value="Node origem do totem recuperado via Redis (chave session:last_node)" style="text;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kq5USN2y0SBJinWFVpKI-239" value="Promoções podem vir do banco local ou API Strapi / Google Sheets" style="text;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="180" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
