@@ -25,15 +25,33 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ## Executar a demonstração completa
 
+**Windows (PowerShell/Pwsh)**
+
 ```powershell
 cd C:\fiap\Projetos\flexMideaSprint2\flexmedia-totem-ia
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  # se necessário
 .\run_demo.ps1
 ```
 
-O script:
+**Windows (Prompt de Comando)**
 
-1. Inicia a simulação de sensores por 60 s.
-2. Abre o dashboard Streamlit em `http://localhost:8501` (headless, sem prompts).
+```bat
+cd C:\fiap\Projetos\flexMideaSprint2\flexmedia-totem-ia
+run_demo.bat
+```
+
+**Linux / macOS**
+
+```bash
+cd /caminho/para/flexMideaSprint2/flexmedia-totem-ia
+chmod +x run_demo.sh
+./run_demo.sh
+```
+
+Todos os scripts executam:
+
+1. Simulação de sensores por 60 s.
+2. Dashboard Streamlit em `http://localhost:8501` (headless, sem prompts).
 
 Use o navegador para capturar as métricas, gráficos e a seção “ML Insights” durante o vídeo.
 
