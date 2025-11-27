@@ -5,6 +5,7 @@ Write-Host "Starting Flexmedia Totem Demo..." -ForegroundColor Green
 Start-Process python -ArgumentList "src/sensors/simulation.py --duration 60" -WindowStyle Minimized
 Write-Host "Sensor Simulation started (background, 60s duration)..." -ForegroundColor Yellow
 
-# Start the dashboard
+# Start the dashboard usando python -m streamlit (garante PATH correto)
+$env:STREAMLIT_BROWSER_GATHER_USAGE_STATS = "false"
 Write-Host "Starting Dashboard..." -ForegroundColor Cyan
-streamlit run src/dashboard/app.py
+python -m streamlit run src/dashboard/app.py --server.headless true
